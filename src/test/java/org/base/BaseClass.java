@@ -17,6 +17,10 @@ public class BaseClass {
 		return driver = new ChromeDriver();
 
 	}
+	public void samplegit() {
+		
+		
+	}
 
 	public void implicitWait(int sec) {
 		driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
